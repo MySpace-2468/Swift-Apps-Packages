@@ -2,7 +2,7 @@ name: extract a zip file
 on:
   push:
     paths:
-    - 'uploads/**.zip'
+    - '**.zip'
   workflow_dispatch:
     jobs:
       unzip:
